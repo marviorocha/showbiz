@@ -35,7 +35,7 @@ categories:
 
 <figure class="wp-block-image"><img alt="Porque ele vive " src="http://musescore.com/static/musescore/scoredata/gen/6/5/1/3032156/509a22fc65f85a80ddc6c6e28c6dac05b1131561/score_0.png" class="wp-image-500" /> </figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 5  

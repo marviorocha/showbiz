@@ -35,7 +35,7 @@ categories:
 
 <figure class="wp-block-image"><img alt="Santo Espirito (Holy Spirit) - Laura Souguellis" src="http://musescore.com/static/musescore/scoredata/gen/1/0/6/3059601/5e74326c0c0f2c0292619a51d0ac978d86d72459/score_0.png" class="wp-image-500" /> </figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 30  

@@ -35,7 +35,7 @@ categories:
 
 <figure class="wp-block-image"><img alt="pirates of the caribbean medley" src="http://musescore.com/static/musescore/scoredata/gen/7/4/6/5636647/f82f117170365697bd9142df8957d71a23e0400b/score_0.png" class="wp-image-500" /> </figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 21  

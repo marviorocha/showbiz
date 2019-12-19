@@ -37,7 +37,7 @@ categories:
 
 <figure class="wp-block-image"><img alt="Game of Thrones, Easy piano" src="http://musescore.com/static/musescore/scoredata/gen/1/5/0/2163051/d580ccc6773c91f6007f9e25a5ae5679d92a44b4/score_0.png" class="wp-image-500" /> </figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 3  

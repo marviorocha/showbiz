@@ -35,7 +35,7 @@ categories:
 
 <figure class="wp-block-image"><img alt="How Deep is Your Love Acappella" src="http://musescore.com/static/musescore/scoredata/gen/1/2/9/813921/d7a650f47be83c6e30182d9b466a11a01943029d/score_0.png" class="wp-image-500" /> </figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 12  

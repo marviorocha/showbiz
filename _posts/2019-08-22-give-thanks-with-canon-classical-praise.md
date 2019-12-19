@@ -37,7 +37,7 @@ categories:
 
 <figure class="wp-block-image"><img alt="Give Thanks (with Canon) - Classical Praise *UPDATE*" src="http://musescore.com/static/musescore/scoredata/gen/1/9/5/726591/45177d29ba88a1a28a30d2f7d8f7e23658f6ce92/score_0.png" class="wp-image-500" /> </figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 4  

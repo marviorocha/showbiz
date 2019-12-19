@@ -37,10 +37,10 @@ Assista ao vídeo aonde fiz um pequeno review falando sobre os seus recursos con
 </h3>
 
 <div id="wp-block-themeisle-blocks-button-group-64e64d1d" class="wp-block-themeisle-blocks-button-group" style="justify-content:center;align-items:center">
-  <a href="http://d2.amplesound.net/dl/AGML_2_3_1_Complete_Installer_ABCDEF.exe" target="_blank" class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:0px;padding:12px 24px " rel="noopener noreferrer"><span>Download Windows</span></a>
+  <a href="http://d2.amplesound.net/dl/AGML_2_3_1_Complete_Installer_ABCDEF.exe"  class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:0px;padding:12px 24px " rel="noopener noreferrer"><span>Download Windows</span></a>
 </div>
 
   
 
 
-Se você desejar fazer o download para Mac <a rel="noreferrer noopener" aria-label="clique aqui (opens in a new tab)" href="http://d2.amplesound.net/dl/AGML_2_3_1_Complete_Installer_ABCDEF.dmg" target="_blank">clique aqui</a>
+Se você desejar fazer o download para Mac <a rel="noreferrer noopener" aria-label="clique aqui (opens in a new tab)" href="http://d2.amplesound.net/dl/AGML_2_3_1_Complete_Installer_ABCDEF.dmg" >clique aqui</a>

@@ -37,7 +37,7 @@ categories:
 
 <figure class="wp-block-image"><img alt="Ninguém Explica Deus ( melodia com letra )" src="http://musescore.com/static/musescore/scoredata/gen/5/3/6/5300635/8eb2482cc4f8f90c7c7038f6357b7336b7de2782/score_0.png" class="wp-image-500" /> </figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 1  

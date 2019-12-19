@@ -71,5 +71,5 @@ Se você ainda não experimentou este maravilhoso “software” está na hora d
 #### Faça o download do MuseScore Abaixo e divirta-se!
 
 <div id="wp-block-themeisle-blocks-button-group-94da6ff0" class="wp-block-themeisle-blocks-button-group" style="justify-content:center;align-items:center">
-  <a href="https://musescore.org/en/download" target="_blank" class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:18px;padding:12px 24px " rel="noopener noreferrer"><i class="fas fa-fw fa-download margin-right"></i><span>Download Grátis</span></a>
+  <a href="https://musescore.org/en/download"  class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:18px;padding:12px 24px " rel="noopener noreferrer"><i class="fas fa-fw fa-download margin-right"></i><span>Download Grátis</span></a>
 </div>

@@ -88,5 +88,5 @@ Conecte externamente o teclado MIDI, aproveite o Grand Piano.
 • E mais&#8230;
 
 <div id="wp-block-themeisle-blocks-button-group-931fae49" class="wp-block-themeisle-blocks-button-group" style="justify-content:center;align-items:center">
-  <a href="https://bit.ly/2Fy9RJk" target="_blank" class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:0px;padding:10px 24px " rel="noopener noreferrer"><span>Download Grátis</span></a>
+  <a href="https://bit.ly/2Fy9RJk"  class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:0px;padding:10px 24px " rel="noopener noreferrer"><span>Download Grátis</span></a>
 </div>

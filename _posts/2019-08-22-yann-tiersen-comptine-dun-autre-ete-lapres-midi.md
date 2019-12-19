@@ -37,7 +37,7 @@ categories:
 
 <figure class="wp-block-image"> <img alt="Yann Tiersen - Comptine D" un="" autre="" Été="" |="" l'après="" midi'="" src="http://musescore.com/static/musescore/scoredata/gen/6/8/8/919886/61c7f05f8a9bc940097221818e1ec8a950176885/score_0.png" class="wp-image-500"></figure>
 
-**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a target="_blank" href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
+**Dica:** Você pode abrir o arquivo **MusicXML** em diversos editores de partituras. Recomendamos o  <a  href="https://www.showbiz.mus.br/musica/o-melhor-editor-de-partitura" title="Editor de Partitura" rel="noopener noreferrer">MuseScore</a> para sua editoração musical. 
 
   
 **Páginas:** 5  

@@ -92,5 +92,5 @@ Ainda é muito cedo para dizermos que ela é a melhor DAW mais com certeza o pes
 
 
 <div id="wp-block-themeisle-blocks-button-group-e02ba099" class="wp-block-themeisle-blocks-button-group" style="justify-content:center;align-items:center">
-  <a href="https://www.bandlab.com/products/cakewalk" target="_blank" class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:18px;padding:12px 24px " rel="noopener noreferrer"><span>Site oficial download </span></a>
+  <a href="https://www.bandlab.com/products/cakewalk"  class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:18px;font-style:normal;border-width:0px;border-radius:18px;padding:12px 24px " rel="noopener noreferrer"><span>Site oficial download </span></a>
 </div>
