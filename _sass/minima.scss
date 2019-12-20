@@ -20,7 +20,12 @@ $link: $blue;
 $footer-background-color: $grey;
 $footer-color: $whiter;
 
+$navbar-height: 6rem;
+
+$logo-brand-size: 247px; 
+
 
 // Import partials.
-@import "../node_modules/bulma/bulma.sass"
-;
+@import "../node_modules/bulma/bulma.sass",
+        "componets/hero-image",
+        "componets/base";

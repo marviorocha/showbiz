@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: showbizmus
 youtube_username:  canalshowbiz
-
+facebook_username: showbizmus
 author: Showbiz.mus.br
 author_url: marviorocha.com
 
@@ -18,6 +18,15 @@ copyright: Todos os direitos reservados
 theme: minima
 plugins:
   - jekyll-feed
+
+algolia:
+  application_id: '34RV5PG28H'
+  index_name:
+
+collections:
+  pages:
+    output: true
+
 
   # Exclude from processing.
 # The following items will not be processed, by default.

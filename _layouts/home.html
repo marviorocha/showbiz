@@ -2,33 +2,42 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+<section class="hero is-dark is-bold is-medium  has-background">
+  <img alt="Partituras Musicais Showbiz.mus.br" class="hero-background is-transparent" 
+        src="{{ site.url | relative_url }}/assets/images/hero-bg.jpg" />
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-6">
+          {%- if page.title -%}
+          <h1 class="title is-1">
+           {{ page.title }}
+          </h1>
+          {%- endif-%}
+          {%- if page.subtitle -%}
+          <h2 class="subtitle is-4">
+            {{ page.subtitle }}
+          </h2>
+          {%- endif-%}
+        </div>
+        <div class="column is-6">
+          
+        </div>
+      </div>
       
-      {%- endfor -%}
-    </ul>
+  
+    </div>
+  </div>
+</section>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+<div class="container">
 
-</div>
+  <div class="section">
+    
+    {{ content }}
+   
+
+    {%- include last_sheet.html -%}
+    </div>
+    
+  </div>

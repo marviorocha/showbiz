@@ -1,0 +1,60 @@
+
+<div class="section">
+
+   
+    
+  <h2 class="title is-title ">{{ page.list_title | default: "Novas Partituras" }}</h2>
+    <div class="columns is-multiline">
+      
+      {%- if site.posts.size > 0 -%}
+     
+      {%- for post in site.posts -%}
+      <div class="column is-3">
+        <div class="card">
+          <div class="card-image">
+            {%- if post.image -%}
+            <figure class="image is-4by3">
+              <img src="{{ post.image }}" alt="{{ post.title }}">
+            </figure>
+            {%- else -%}
+              <figure class="image is-4by3">
+                <img src="/assets/images/no-image-1.jpg" alt="Sem Imagem">
+              </figure>
+            {%- endif -%}
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4"> {{ post.title | escape }} </p>
+               
+              </div>
+              </div>
+            <div class="content">
+              {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+              {%- endif -%}
+              {%- if post.categories -%}
+              <a class="tag is-link" href="#">{{ post.categories }}</a>  
+              {%- endif -%}
+              <p></p>
+              {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y - %H:%m %P" -%}
+              Data: <span datetime="post-meta">{{ post.date | date: date_format }}</span>
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- endfor -%}
+
+    
+    </div>
+ 
+      <p class="rss-subscribe">Inscreva-se <i class="fas fa-rss"></i> <a target="_blank" href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      {%- endif -%}
+      
+</div>
