@@ -1,27 +1,77 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1" itemprop="name headline">{{ page.title | escape }}</h1>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+      <h2 class="subtitle">
+        {{ page.categories }}
+      </h2>
+    </div>
   </div>
+</section>
+<section class="section">
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  <main class="container" aria-label="Content">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li>
+          <span class="icon is-small">
+            <i class="fas fa-home" aria-hidden="true"></i>
+          </span>
+          <a href="{{ site.url | relative_url}}">Principal</a></li>
+        <li><a href="#">{{ page.categories }}</a></li>
+        <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+      </ul>
+    </nav>
+  </main>
+</section>
+<section class="section">
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+  <div class="container">
+
+    <!-- star columns left----- // -->
+    <div class="columns">
+
+      <!--  starter column -------- // -->
+      <div class="column is-9">
+
+        <article itemscope itemtype="http://schema.org/BlogPosting">
+          <header class="post-header">
+            <p class="post-meta">
+              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+              </time>
+              {%- if page.author -%}
+              | <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+                  itemprop="name">{{ page.author }}</span></span>
+              {%- endif -%}</p>
+          </header>
+
+          <div class="content is-medium" itemprop="articleBody">
+            {{ content }}
+          </div>
+
+      </div>
+
+      <div class="column is-3 has-background-light">
+        {%- include newsletters.html -%}
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores at, sunt beatae, non, laborum
+        dignissimos error cupiditate facilis repudiandae aliquid iusto magnam! Quasi labore facere reprehenderit autem
+        in nulla.
+      </div>
+
+      {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+      {%- endif -%}
+
+      <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+      </article>
+</section>
+</div>
+
+</div> <!-- end /div columns----------- // -->

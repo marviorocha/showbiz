@@ -19,6 +19,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+disqus:
+  shortname: showbizmus
+
 algolia:
   application_id: '34RV5PG28H'
   index_name:
