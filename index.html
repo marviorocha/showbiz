@@ -7,3 +7,9 @@ title: Partituras e Conteúdo Musical
 subtitle: Orgulhosamente Falando de Música!
 icon: home
 ---
+
+{%- assign production = site.production -%}
+
+{%- if production  -%}
+<meta http-equiv="refresh" content="0; URL='{{ site.url | relative_url }}/embreve'"/>
+{%- endif -%}
