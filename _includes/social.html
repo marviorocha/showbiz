@@ -1,54 +1,55 @@
-
-
-   {%- if site.rss -%}
+{%- if site.rss -%}
 <div class="is-inline social">
    <a href="{{ 'feed.xml' | relative_url }}"> <i class="fas fa-rss"></i>
       <i class="fab fa-rss fa-3x fa-inverse"></i>
    </a>{%- endif -%}
 </div>
-   
-   {%- if site.youtube_username -%}
+
+{%- if site.youtube_username -%}
 
 <div class="is-inline social">
-      <div class="icon">
-         <a target="_blank" title="{{ site.youtube_username| escape }}" href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}?=sub_confirmation=1">
-            <i class="fab fa-youtube fa-3x fa-inverse"></i>
-         </a>
-      </div>
-</div>   
-   {%- endif -%}
+   <div class="icon">
+      <a target="_blank" title="{{ site.youtube_username| escape }}"
+         href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}?sub_confirmation=1">
+         <i class="fab fa-youtube fa-3x fa-inverse"></i>
+      </a>
+   </div>
+</div>
+{%- endif -%}
 
-   
-   {%- if site.facebook_username -%}
+
+{%- if site.facebook_username -%}
 <div class="social is-inline">
    <div class="icon">
-      <a target="_blank" title="{{ site.facebook_username| escape }}" href="https://facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
+      <a target="_blank" title="{{ site.facebook_username| escape }}"
+         href="https://facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
          <i class="fab fa-facebook fa-3x fa-inverse"></i>
       </a>
    </div>
-   
-</div>   
-   {%- endif -%}
-   
-   {%- if site.twitter_username -%}
+
+</div>
+{%- endif -%}
+
+{%- if site.twitter_username -%}
 <div class="is-inline social">
-      <div class="icon">
-         <a target="_blank" title="{{ site.twitter_username| escape }}" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
-            <i class="fab fa-twitter fa-3x fa-inverse"></i>
-         </a>
-      </div>
-</div> 
-   {%- endif -%}
-   
-    {%- if site.pintrest_username -%}
+   <div class="icon">
+      <a target="_blank" title="{{ site.twitter_username| escape }}"
+         href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+         <i class="fab fa-twitter fa-3x fa-inverse"></i>
+      </a>
+   </div>
+</div>
+{%- endif -%}
+
+{%- if site.pintrest_username -%}
 <div class="social is-inline">
    <div class="icon">
-      <a target="_blank" title="{{ site.pintrest_username| escape }}" href="https://pintrest.com/{{ site.pintrest_username| cgi_escape | escape }}">
+      <a target="_blank" title="{{ site.pintrest_username| escape }}"
+         href="https://pintrest.com/{{ site.pintrest_username| cgi_escape | escape }}">
          <i class="fab fa-pintrest fa-3x fa-inverse"></i>
       </a>
    </div>
-   
-</div>   
-   
+   {%- endif -%}
+</div>
    
    

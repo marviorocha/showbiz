@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: showbizmus
 youtube_username:  canalshowbiz
+pintrest_username: showbizmusbr
 facebook_username: showbizmus
 author: Showbiz.mus.br
 author_url: marviorocha.com

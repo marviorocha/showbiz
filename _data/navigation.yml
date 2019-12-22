@@ -1,0 +1,21 @@
+nav:
+   - title: Home
+     icon: home
+     url: index.html
+     
+   - title: Sobre
+     icon: address
+     url: about
+         
+   - title: Partituras
+     icon: music
+     url: sheet-music
+     
+   - title: Download
+     icon: download
+     url: download.html
+     
+   - title: Cursos
+     icon: educations
+     url: cursos.html
+ 

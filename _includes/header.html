@@ -44,26 +44,15 @@
       </div>
         
    <div class="navbar-end">
-       {%- assign default_paths = site.pages | map: "path" -%}
-            {%- assign page_paths = site.header_pages | default: default_paths -%}
-            
-            <a href="{{ site.url | relative_url }}" class="navbar-item">
-              <i class="fas fa-home"></i> &nbsp;
-              Home
-            </a>
-            
-            {%- if page_paths -%}
-  
-            {%- for path in page_paths -%}
-           
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-
-            <a class="navbar-item" href="{{ my_page.url | relative_url }}">
-              <i class="fas fa-{{ my_page.icon | escape }}"></i> &nbsp;
-              {{ my_page.title | escape }}</a>
-            {%- endif -%}
+ 
+    
+            {%- assign navigation = site.data.navigation.nav -%}
+           {%- for nav in navigation -%} 
+            <a class="navbar-item" href="{{ nav.url | relative_url }}">
+              <i class="fas fa-{{ nav.icon | escape }}"></i> &nbsp;
+              {{ nav.title | escape }}</a>
             {%- endfor -%}
+          
    </div>
         
       </div> <!-- end navbar-menu ------------------------------------------------------ // -->
@@ -74,7 +63,7 @@
   </div>
 </div>
 </div>
-{%- endif -%}
+
 </nav>
 
 </header>

@@ -1,6 +1,6 @@
 ---
 layout: page
-hidden: true
+permalink: obrigado
 ---
 
  {% assign name = "Tobi" %}
