@@ -12,7 +12,10 @@ pintrest_username: showbizmusbr
 facebook_username: showbizmus
 author: Showbiz.mus.br
 author_url: marviorocha.com
+
 production: true
+mailchimp-list: 
+
 copyright: Todos os direitos reservados
 
 # Build settings
