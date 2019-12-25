@@ -1,12 +1,30 @@
 <div class="columns">
-<div class="column">
-    <div class="field">
-        <p class="control has-icons-left">
-            <input class="input" type="text" placeholder="Digite your name">
-            <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-            </span>
-        </p>
+    <div class="column">
+        <form action="{{ site.mailchimp-list }}"  method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
+            <fieldset>
+                <legend class="title is-5 has-text-centered">Receba atualizaçoes do site grátis</legend>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input required name="NAME" class="input" type="text" placeholder="Digite seu nome"> 
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i> </span>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <input name="EMAIL" required class="input" type="text" placeholder="Digite seu e-mail">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <button type="submit" class="button is-danger is-fullwidth">
+                            Cadastrar
+                        </button>
+                    </div>
+                    
+                </fieldset>
+        </form>
     </div>
-</div>
 </div>

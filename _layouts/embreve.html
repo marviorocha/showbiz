@@ -34,36 +34,42 @@
 </head>
 <body>
 
-<section class="hero is-info is-fullheight bg-cover">
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <div class="column is-6 is-offset-3">
-                <h1 class="title is-uppercase">
-                    Amazing Product Coming Soon
-                </h1>
-                <h2 class="subtitle">
-                    We will let you know as soon as product is released
-                </h2>
-                <div class="">
 
-                    <div class="field is-grouped">
-                        <p class="control is-expanded">
-                            <input class="input is-rounded is-ghost has-text-centered" type="text" placeholder="Enter your email">
-                        </p>
-                    </div>
-
-                    <div class="field is-grouped is-grouped-centered">
-                        <p class="control">
-                            <a class="button is-white is-outlined is-rounded is-grouped-centered is-ease is-uppercase has-text-weight-bold">
-                                Subscribe
-                            </a>
-                        </p>
+    <section class="hero is-info is-fullheight bg-cover">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="column is-6 is-offset-3">
+                    <figure>
+                        <img src="/assets/images/logo-1.png" alt="Logo">
+                    </figure>
+                    <h1 class="title is-uppercase">
+                       Estamos fazendo melhorias em nosso site
+                    </h1>
+                    <h2 class="subtitle">
+                       Breve voltamos cheio de novidades e coisas legais para você!
+                    </h2>
+                    <div class="">
+    <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    
+        <div class="field is-grouped">
+            <p class="control is-expanded">
+                <input name="EMAIL" class="input is-rounded is-ghost has-text-centered" type="text" placeholder="Digite seu e-mail">
+            </p>
+        </div>
+        
+        <div class="field is-grouped is-grouped-centered">
+            <p class="control">
+                <button type="submit" class="button is-white is-outlined is-rounded is-grouped-centered is-ease is-uppercase has-text-weight-bold">
+                    Sim, desejo ser avisado!
+                </button>
+            </p>
+        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
+    </section>
+    
 </body>
 </html>
