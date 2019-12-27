@@ -11,9 +11,9 @@ nav:
      icon: music
      url: sheet-music
      
-   - title: Download
-     icon: download
-     url: download.html
+   - title: Blog
+     icon: newspaper
+     url: blog
      
    - title: Cursos
      icon: educations

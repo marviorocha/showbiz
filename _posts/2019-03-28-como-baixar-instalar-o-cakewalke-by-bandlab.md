@@ -5,7 +5,8 @@ date: 2019-03-28T19:54:22-03:00
 author: Showbiz Mus
 layout: post
 guid: https://www.showbiz.mus.br/?p=284
-permalink: /musica/como-baixar-instalar-o-cakewalke-by-bandlab/
+permalink: /download/
+comments: true
 image: /wp-content/uploads/2019/03/cakewalk-open-graph-040d0fdf3f.png
 categories:
   - Download
