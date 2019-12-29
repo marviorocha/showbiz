@@ -23,9 +23,13 @@ copyright: Todos os direitos reservados
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-paginate
+ 
 disqus:
   shortname: showbizmus
+
+onsiginal:
+  appid: 9bfefa27-04d2-4584-b5b2-348bcf3ef41f
 
 algolia:
   application_id: '34RV5PG28H'
@@ -35,6 +39,7 @@ collections:
   pages:
     output: true
 
+paginate: 5
 
   # Exclude from processing.
 # The following items will not be processed, by default.

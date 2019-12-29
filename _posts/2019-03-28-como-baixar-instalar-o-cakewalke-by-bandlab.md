@@ -7,6 +7,7 @@ layout: post
 guid: https://www.showbiz.mus.br/?p=284
 permalink: /download/
 comments: true
+onesignal: true
 image: /wp-content/uploads/2019/03/cakewalk-open-graph-040d0fdf3f.png
 categories:
   - Download

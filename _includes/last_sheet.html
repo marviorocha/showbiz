@@ -8,7 +8,7 @@
       
       {%- if site.posts.size > 0 -%}
      
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <div class="column is-3">
         <div class="card">
           <div class="card-image">
@@ -56,10 +56,62 @@
       </div>
       {%- endfor -%}
 
+ 
+
+      {% if paginator.total_pages > 1 %}
+      <ul>
+        {% if paginator.previous_page %}
+        <li>
+          <a href="">Newer</a>
+        </li>
+        {% endif %}
+        {% if paginator.next_page %}
+        <li>
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+        </li>
+        {% endif %}
+      </ul>
+      {% endif %}
     
     </div>
  
-      <p class="rss-subscribe">Inscreva-se <i class="fas fa-rss"></i> <a target="_blank" href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-      {%- endif -%}
+  </div>
+  <div class="column">
+    <div class="level">
+      <div class="level-right">
+        {%- if paginator.total_pages > 1 -%}
+        
+        <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+          {%- if paginator.previous_page -%}
+          
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous">Anterior</a>
+          {%- endif -%}
+
+          {%- if paginator.next_page -%}
+           <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-next">Próximo</a>
+          {%- endif -%}
+          <ul class="pagination-list">
       
+      {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      
+      <li><a class="pagination-link is-current" aria-label="Goto page 1">{{ page }}</a></li>
+    {% elsif page == 1 %}
+    <li><a  href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link" aria-label="Goto page 45">{{ page }}</a></li>
+    {% else %}
+      <a class="pagination-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+         </ul>
+        </nav>
+        {%- endif -%}
+        
+  </div>
+  <div class="level-left">
+ 
+    <p class="rss-subscribe">Inscreva-se <i class="fas fa-rss"></i> <a target="_blank" href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
+    
+    </div>
+  </div>
 </div>
