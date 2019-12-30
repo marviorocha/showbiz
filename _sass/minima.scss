@@ -24,6 +24,8 @@ $navbar-height: 6rem;
 
 $logo-brand-size: 247px; 
 
+$pagination-current-background-color: $red;
+$pagination-current-border-color: $red;
 
 // Import partials.
 @import "../node_modules/bulma/bulma.sass",

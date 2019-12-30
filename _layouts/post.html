@@ -23,7 +23,7 @@ layout: default
             <i class="fas fa-home" aria-hidden="true"></i>
           </span>
           <a href="{{ site.url | relative_url}}">Principal</a></li>
-        <li><a href="#">{{ page.categories }}</a></li>
+        <li><a href="#">{{ page.categories | array_to_sentence_string}}</a></li>
         <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
       </ul>
     </nav>
@@ -53,21 +53,27 @@ layout: default
           </header>
 
           <div class="content is-medium" itemprop="articleBody">
-            {{ content }}
-           <div class="column section">
-             {%- if site.disqus.shortname -%}
-            {%- include disqus_comments.html -%}
-            {%- endif -%}
-           </div> 
+          <div id="output"/>
+<script type="text/javascript">
+    var vrvToolkit = new verovio.toolkit();
+    /* Load the file using HTTP GET */
+    $.get( "Bach_Nun_komm_der_Heiden_Heiland_BWV.659.mei", function( data ) {
+        var svg = vrvToolkit.renderData(data, {});
+        $("#output").html(svg);
+    }, 'text');
+</script>
           </div>
 
       </div>
 
       <div class="column is-3 has-background-light">
         {%- include newsletters.html -%}
-      
+    
       </div>
 
+      {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+      {%- endif -%}
 
       <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </article>
