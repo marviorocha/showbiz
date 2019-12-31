@@ -17,8 +17,7 @@ site-content-layout:
 
   - default
 image: /wp-content/uploads/2019/04/images-7.jpg
-categories:
-  - Música
+category: blog
   - Partituras
   - Piano
 ---

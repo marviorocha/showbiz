@@ -22,9 +22,7 @@ site-content-layout:
   - default
 
   - default
-categories:
-  - Partituras
-  - Piano
+category: partituras
 ---
 [Download](#download "link para download de partitura") | **Compositor:** Transcription by : David Sulistio &#8211; **Arranjo:**<img alt="David Sulistio" class="wp-image-40" width="40" hight="40" sizes="40" src="https://musescore.com/static/musescore/userdata/avatar/4/1/6/17250806.jpg@300x300?cache=1488616985" /> David Sulistio
 

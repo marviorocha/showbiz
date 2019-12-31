@@ -22,8 +22,7 @@ site-content-layout:
   - default
 
   - default
-categories:
-  - Partituras
+category: partituras
   - Piano
 ---
 [Download](#download "link para download de partitura") | **Compositor:** Stevie Wonder &#8211; **Arranjo:**<img alt="Melanie Marsch" class="wp-image-40" width="40" hight="40" sizes="40" src="https://musescore.com/static/musescore/userdata/avatar/f/2/5/15112721.jpg@300x300?cache=1484022884" /> Melanie Marsch

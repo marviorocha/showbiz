@@ -22,8 +22,7 @@ site-content-layout:
   - default
 
   - default
-categories:
-  - Partituras
+category: partituras
   - Piano
 ---
 [Download](#download "link para download de partitura") | **Compositor:** Transcrição e adaptação &#8211; Andrey Santos &#8211; **Arranjo:**<img alt="Andrey Santos" class="wp-image-40" width="40" hight="40" sizes="40" src="https://musescore.com/static/musescore/userdata/avatar/9/9/1/28781107.jpg@300x300?cache=1526738616" /> Andrey Santos

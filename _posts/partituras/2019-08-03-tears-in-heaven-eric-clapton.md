@@ -22,8 +22,7 @@ site-content-layout:
   - default
 
   - default
-categories:
-  - Partituras
+category: partituras
   - Piano
 ---
 [Download](#download "link para download de partitura") | **Compositor:** Eric Clapton Arr. Zachary Booton &#8211; **Arranjo:**<img alt="zbooton" class="wp-image-40" width="40" hight="40" sizes="40" src="https://musescore.com/static/musescore/userdata/avatar/0/7/d/1901781.jpg@300x300?cache=1507152911" /> zbooton

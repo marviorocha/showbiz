@@ -11,21 +11,8 @@ enclosure:
     http://musescore.com/static/musescore/scoredata/gen/2/5/2/5129252/87a8d395b058b9544545886d6364b331c402691a/score.mid
     162
     audio/midi
-    
-onesignal_meta_box_present:
-  - "1"
-onesignal_send_notification:
-  - ""
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
 
-  - default
-categories:
-  - Partituras
-  - Piano
-  - Saxofone
+category: partituras
 ---
 [Download](#download "link para download de partitura") | **Compositor:** Transcrição e adaptação &#8211; Andrey Santos &#8211; **Arranjo:**<img alt="Andrey Santos" class="wp-image-40" width="40" hight="40" sizes="40" src="https://musescore.com/static/musescore/userdata/avatar/9/9/1/28781107.jpg@300x300?cache=1526738616" /> Andrey Santos
 

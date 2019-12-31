@@ -8,7 +8,7 @@
       
       {%- if site.posts.size > 0 -%}
      
-      {%- for post in site.posts | limit: 19 -%}
+      {%- for post in paginator.posts -%}
       <div class="column is-3">
         <div class="card">
           <div class="card-image">
@@ -60,32 +60,8 @@
   <div class="column">
     <div class="level">
       <div class="level-right">
-        {%- if paginator.total_pages > 1 -%}
-        
-        <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-          {%- if paginator.previous_page -%}
-          
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous">Anterior</a>
-          {%- endif -%}
-
-          {%- if paginator.next_page -%}
-           <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-next">Próximo</a>
-          {%- endif -%}
-          <ul class="pagination-list">
-      
-      {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      
-      <li><a class="pagination-link is-current" aria-label="Goto page 1">{{ page }}</a></li>
-    {% elsif page == 1 %}
-    <li><a  href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link" aria-label="Goto page 45">{{ page }}</a></li>
-    {% else %}
-      <a class="pagination-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-         </ul>
-        </nav>
-        {%- endif -%}
+  
+        {%- include paginador.html -%}
         
   </div>
   <div class="level-left">

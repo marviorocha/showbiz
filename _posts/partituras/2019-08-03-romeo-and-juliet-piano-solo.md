@@ -22,8 +22,7 @@ site-content-layout:
   - default
 
   - default
-categories:
-  - Partituras
+category: partituras
   - Piano
 ---
 [Download](#download "link para download de partitura") | **Compositor:** By Arthur Breur (BMI) &#8211; **Arranjo:**<img alt="arthurbreur" class="wp-image-40" width="40" hight="40" sizes="40" src="https://musescore.com/static/musescore/userdata/avatar/9/5/6/45359.jpg@300x300?cache=1489171198" /> arthurbreur

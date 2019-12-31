@@ -7,8 +7,7 @@ layout: post
 guid: https://www.showbiz.mus.br/?p=114
 permalink: /producao-musical/a-biblioteca-komplete-da-native-instrument/
 image: /wp-content/uploads/2019/03/SKU45888-2.jpg
-categories:
-  - Produção Musical
+category: blog
 ---
 Você que admira o NI. Começando como um pequeno desenvolvedor de instrumentos de “software”,  
 seu impulso para inovar, seu compromisso com a qualidade e seu (profundo) compreensão de que produtores de música desejo viu a empresa se tornar um dos principais atores da cena música e tecnologia.<figure class="wp-block-image">

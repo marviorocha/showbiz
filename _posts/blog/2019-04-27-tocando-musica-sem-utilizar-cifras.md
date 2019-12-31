@@ -7,8 +7,7 @@ layout: post
 guid: https://www.showbiz.mus.br/?p=453
 permalink: /musica/tocando-musica-sem-utilizar-cifras/
 image: /wp-content/uploads/2019/04/apostila-de-como-tirar-musica-de-ouvido.jpg
-categories:
-  - Música
+category: blog
 ---
 ### Como tirar música de ouvido
 

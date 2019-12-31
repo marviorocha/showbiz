@@ -7,8 +7,7 @@ layout: post
 guid: https://www.showbiz.mus.br/?p=88
 permalink: /musica/midi-o-que-e-isso-descubra-agora/
 image: /wp-content/uploads/2019/03/What-Is-Midi_A_USB-CPU_1200x627.jpg
-categories:
-  - Música
+category: blog
 ---
 Olá meus amigos sejam bem-vindos a todos ao novo site do Showbiz e para iniciarmos com chave de ouro vamos falar um pouco do que é arquivo Midi.
 

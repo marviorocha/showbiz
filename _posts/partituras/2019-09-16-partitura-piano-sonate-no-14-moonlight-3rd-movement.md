@@ -12,8 +12,7 @@ enclosure:
     162
     audio/midi
     
-categories:
-  - Partituras
+category: partituras
   - Piano
 ---
 [Download](#download "link para download de partitura") | **Compositor:** Ludwig van Beethoven (1770–1827) &#8211; **Arranjo:** <img alt='ClassicMan' class='wp-image-40' width='40' hight='40' sizes='40' src='https://musescore.com/static/musescore/userdata/avatar/a/8/9/19710.jpg@300x300?cache=1483948208' /> ClassicMan

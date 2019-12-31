@@ -8,7 +8,7 @@ layout: default
       <h1 class="title is-1" itemprop="name headline">{{ page.title | escape }}</h1>
 
       <h2 class="subtitle">
-        {{ page.categories }}
+        {{ page.categories | array_to_sentence_string }}
       </h2>
     </div>
   </div>
@@ -53,21 +53,19 @@ layout: default
           </header>
 
           <div class="content is-medium" itemprop="articleBody">
-          <div id="output"/>
-<script type="text/javascript">
-    var vrvToolkit = new verovio.toolkit();
-    /* Load the file using HTTP GET */
-    $.get( "Bach_Nun_komm_der_Heiden_Heiland_BWV.659.mei", function( data ) {
-        var svg = vrvToolkit.renderData(data, {});
-        $("#output").html(svg);
-    }, 'text');
-</script>
+            {{ content}}
+
+          
+            <div class="section">
+               {%- include shered.html -%}
+
+            </div>
           </div>
 
       </div>
 
       <div class="column is-3 has-background-light">
-        {%- include newsletters.html -%}
+        {%- include sidebar.html -%}
     
       </div>
 
