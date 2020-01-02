@@ -13,7 +13,6 @@ gem "minima", "~> 2.5"
  
 gem 'mechanize'
 
-gem "jekyll-paginate"
 
 gem "rest-client"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -21,6 +20,7 @@ gem "rest-client"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-paginate"
   gem "jekyll-algolia"
   gem "jekyll-feed", "~> 0.12"
 end

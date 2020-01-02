@@ -33,13 +33,14 @@ onsiginal:
 
 algolia:
   application_id: '34RV5PG28H'
-  index_name:
+  search_only_api_key: 00fef09fcb01807032a605d34f2105cc
+  index_name: showbiz
 
 collections:
   pages:
     output: true
 
-paginate: 5
+paginate: 16
 
   # Exclude from processing.
 # The following items will not be processed, by default.

@@ -18,9 +18,18 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 crossorigin="anonymous"></script>
+<!-- My custom scripts  ------------------------------------------------------ // -->
 <script src="/assets/js/menu.js"></script>
 <script src="/assets/js/hotjar.js"></script>
 <script src="/assets/js/disqus.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56c473e9dca3897a"></script>
-
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    searchResultTemplate: '<div class=""><a href="{url}"><h1 class="title is-4 has-text-link" >{title}</h1></a></div>',
+    json: '/search.json'
+  })
+  </script>
 {%- include onesignal.html -%}

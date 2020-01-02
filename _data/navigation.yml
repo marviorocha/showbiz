@@ -4,7 +4,7 @@ nav:
      url: index.html
      
    - title: Sobre
-     icon: address
+     icon: address-book
      url: about
          
    - title: Partituras
@@ -14,8 +14,8 @@ nav:
    - title: Blog
      icon: newspaper
      url: blog
-     
-   - title: Cursos
-     icon: educations
-     url: cursos.html
+   - title: Buscar
+     icon: search
+     url: search
+ 
  

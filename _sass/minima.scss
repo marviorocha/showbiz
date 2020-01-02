@@ -30,4 +30,5 @@ $pagination-current-border-color: $red;
 // Import partials.
 @import "../node_modules/bulma/bulma.sass",
         "componets/hero-image",
+        "componets/algolia",
         "componets/base";
