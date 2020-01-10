@@ -19,6 +19,15 @@ mailchimp-list: https://mus.us13.list-manage.com/subscribe/post?u=4c6278e721e4ae
 
 copyright: Todos os direitos reservados
 
+# Feed RSS Settings 
+name: Showbiz.mus.br
+description: Orgulhosamente falando de música | Partituras e Conteúdo Musical
+url: http://showbiz.mus.br
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+
+
 # Build settings
 theme: minima
 plugins:
@@ -30,12 +39,7 @@ disqus:
 
 onsiginal:
   appid: 9bfefa27-04d2-4584-b5b2-348bcf3ef41f
-
-algolia:
-  application_id: '34RV5PG28H'
-  search_only_api_key: 00fef09fcb01807032a605d34f2105cc
-  index_name: showbiz
-
+ 
 collections:
   pages:
     output: true

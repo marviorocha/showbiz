@@ -39,13 +39,9 @@
               {%- if site.show_excerpts -%}
               {{ post.excerpt }}
               {%- endif -%}
-              {%- if post.categories -%}
-              <a class="tag is-link" href="{{ post.url }}">{{ post.categories | array_to_sentence_string }}</a>  
-              {%- endif -%}
-              <p></p>
-              {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y - %H:%m %P" -%}
-              Data: <span datetime="post-meta">{{ post.date | date: date_format }}</span>
-               
+              
+              <b>Nível:</b> {{ post.nivel}}
+                            
             </div>
           </div>
         </div>

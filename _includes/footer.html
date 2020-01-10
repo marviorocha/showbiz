@@ -6,6 +6,7 @@
     <p>
       <div class="is-title">{{ site.name }} - {{ site.title | escape }}</div> by {%- if site.author -%}
       <a  href="https://{{ site.author_url }}"> {{ site.author }} </a>
+      | <a href="{{ site.permalink }}">Direitos Autorais</a>
       {%- endif -%}
         <p>© 2018 - {{ 'now' | date: '%Y'}} &nbsp; {{- site.copyright | escape -}}</p>
     </p>
@@ -23,6 +24,7 @@ crossorigin="anonymous"></script>
 <script src="/assets/js/hotjar.js"></script>
 <script src="/assets/js/disqus.js"></script>
 <script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/download.js"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56c473e9dca3897a"></script>
 <script>
   SimpleJekyllSearch({
