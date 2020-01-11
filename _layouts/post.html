@@ -9,7 +9,7 @@ layout: default
 
       <h2 class="subtitle">
         {%- if page.tags -%}
-              {{ page.tags | array_to_sentence_string }}
+        {{ page.tags | array_to_sentence_string }}
         {%- endif -%}
       </h2>
     </div>
@@ -43,85 +43,65 @@ layout: default
 
         <article itemscope itemtype="http://schema.org/BlogPosting">
           <header class="post-header">
-         
-              {%- if page.author -%}
-              | <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
-                  itemprop="name">{{ page.author }}</span></span>
-              {%- endif -%}</p>
+
+            {%- if page.author -%}
+            | <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+                itemprop="name">{{ page.author }}</span></span>
+            {%- endif -%}</p>
           </header>
 
           <div class="content is-medium" itemprop="articleBody">
-          
-            <div class="columns">
 
-              <div class="column is-6">
-                
-                <img  alt="{{ page.title }}" src="{{ page.image }}">
-              </div>
+           <div class="columns">
               
-              
-              
+            <div class="column is-6">
+                <img alt="{{ page.title }}" src="{{ page.image }}">
+            </div>
+
+
+              <!-- page partitura filter ----------------- // -->
+
               {%- if page.category == "partituras" -%}
-              
-              <div class="column is-5">
-               <b>Partitura:</b> {{ page.subtitle }}
-               <br>
-               <b>Nível:</b> {{ page.nivel }}
-               <br>
-               <b>Descrição:</b> {{ content}}
+            <div class="column is-5">
+                <b>Partitura:</b> {{ page.subtitle }}
+                <br>
+                <b>Nível:</b> {{ page.nivel }}
+                <br>
+                <b>Descrição:</b> {{ content}}
                 <p class="section buttons">
                   {%- if  page.download_pdf -%}
-               
-                  <a   href="{{ page.download_pdf }}" download target="_top" 
-                  
-                  class="button is-large is-danger">
-                  <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Download PDF</span>
-                   </a>
+
+                  <a href="{{ page.download_pdf }}" download target="_top" class="button is-large is-danger">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Download PDF</span>
+                  </a>
+
+
+                  {%- endif -%}
+             </div>
+             {%- endif -%} <!--  End filter partituras ------------ // -->
+            </div>
          
-                   
-                   {%- endif -%}
-                  </div>             
-                  <p>
-                    {%- for mytag in post.tags -%}
-                   
-                    <a class="tag is-link" href="{{ mytag.tags }}">{{ mytag | array_to_sentence_string }}</a>  
-                    {%- endfor -%}
-                  </p>
-                  
-</div>
-
-
-
-</p>
-
-
-{%- endif -%}
-
-
-<div class="section">
-  {%- include shered.html -%}
+            <div class="section">
+              {%- include shered.html -%}
+          
+              {%- include disqus_comments.html -%}
+            </div>
+          
+          </div>
+            
+          </div>
+          
+        </p>
+      </article>
+      <div class="column is-3 has-background-light">
+        {%- include sidebar.html -%}
+      </div>
+    </section>
+    
+  </div>
   
-</div>
-</div>
-
-</div>
-
-<div class="column is-3 has-background-light">
-  {%- include sidebar.html -%}
-  
-</div>
-
-{%- if site.disqus.shortname -%}
-{%- include disqus_comments.html -%}
-{%- endif -%}
-
-<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
-</section>
-   
-</div>
-
 </div> <!-- end /div columns----------- // -->
+

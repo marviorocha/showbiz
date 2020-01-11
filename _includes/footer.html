@@ -22,9 +22,8 @@ crossorigin="anonymous"></script>
 <!-- My custom scripts  ------------------------------------------------------ // -->
 <script src="/assets/js/menu.js"></script>
 <script src="/assets/js/hotjar.js"></script>
-<script src="/assets/js/disqus.js"></script>
 <script src="/assets/js/simple-jekyll-search.min.js"></script>
-<script src="/assets/js/download.js"></script>
+
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56c473e9dca3897a"></script>
 <script>
   SimpleJekyllSearch({
@@ -35,3 +34,19 @@ crossorigin="anonymous"></script>
   })
   </script>
 {%- include onesignal.html -%}
+
+<script>
+var disqus_config = function () {
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+</script>
