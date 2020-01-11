@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
  
@@ -8,15 +8,23 @@
   {%- if production  -%}
   <meta http-equiv="refresh" content="URL='{{ site.url | relative_url }}/embreve'"/>
   {%- endif -%}
+ <!-- favicon  ------------------------------------------------------ // -->  
   
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/favicon/apple-touch-icon.png" | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon/favicon-32x32.png" | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon/favicon-16x16.png" | relative_url }}">
   <link rel="manifest" href="{{ "/assets/images/favicon/site.webmanifest" | relative_url }}"> 
+  
+  <!-- fontawesome ------------------------------------------------------ // -->
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
+  <!-- algolia seach ------------------------------------------------------ // -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css">
+  
   {%- feed_meta -%}
  
 </head>

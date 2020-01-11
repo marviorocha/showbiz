@@ -8,7 +8,9 @@ layout: default
       <h1 class="title is-1" itemprop="name headline">{{ page.title | escape }}</h1>
 
       <h2 class="subtitle">
-        {{ page.categories }}
+        {%- if page.tags -%}
+              {{ page.tags | array_to_sentence_string }}
+        {%- endif -%}
       </h2>
     </div>
   </div>
@@ -23,7 +25,7 @@ layout: default
             <i class="fas fa-home" aria-hidden="true"></i>
           </span>
           <a href="{{ site.url | relative_url}}">Principal</a></li>
-        <li><a href="#">{{ page.categories }}</a></li>
+        <li><a href="#">{{ page.categories | array_to_sentence_string}}</a></li>
         <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
       </ul>
     </nav>
@@ -41,11 +43,7 @@ layout: default
 
         <article itemscope itemtype="http://schema.org/BlogPosting">
           <header class="post-header">
-            <p class="post-meta">
-              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                {{ page.date | date: date_format }}
-              </time>
+         
               {%- if page.author -%}
               | <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
                   itemprop="name">{{ page.author }}</span></span>
@@ -53,25 +51,77 @@ layout: default
           </header>
 
           <div class="content is-medium" itemprop="articleBody">
-            {{ content }}
-          </div>
+          
+            <div class="columns">
 
-      </div>
+              <div class="column is-6">
+                
+                <img  alt="{{ page.title }}" src="{{ page.image }}">
+              </div>
+              
+              
+              
+              {%- if page.category == "partituras" -%}
+              
+              <div class="column is-5">
+               <b>Partitura:</b> {{ page.subtitle }}
+               <br>
+               <b>Nível:</b> {{ page.nivel }}
+               <br>
+               <b>Descrição:</b> {{ content}}
+                <p class="section buttons">
+                  {%- if  page.download_pdf -%}
+               
+                  <a   href="{{ page.download_pdf }}" download target="_top" 
+                  
+                  class="button is-large is-danger">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Download PDF</span>
+                   </a>
+         
+                   
+                   {%- endif -%}
+                  </div>             
+                  <p>
+                    {%- for mytag in post.tags -%}
+                   
+                    <a class="tag is-link" href="{{ mytag.tags }}">{{ mytag | array_to_sentence_string }}</a>  
+                    {%- endfor -%}
+                  </p>
+                  
+</div>
 
-      <div class="column is-3 has-background-light">
-        {%- include newsletters.html -%}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores at, sunt beatae, non, laborum
-        dignissimos error cupiditate facilis repudiandae aliquid iusto magnam! Quasi labore facere reprehenderit autem
-        in nulla.
-      </div>
 
-      {%- if site.disqus.shortname -%}
-      {%- include disqus_comments.html -%}
-      {%- endif -%}
 
-      <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-      </article>
+</p>
+
+
+{%- endif -%}
+
+
+<div class="section">
+  {%- include shered.html -%}
+  
+</div>
+</div>
+
+</div>
+
+<div class="column is-3 has-background-light">
+  {%- include sidebar.html -%}
+  
+</div>
+
+{%- if site.disqus.shortname -%}
+{%- include disqus_comments.html -%}
+{%- endif -%}
+
+<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
 </section>
+   
 </div>
 
 </div> <!-- end /div columns----------- // -->
