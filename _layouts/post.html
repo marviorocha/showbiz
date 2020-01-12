@@ -71,12 +71,24 @@ layout: default
                 <p class="section buttons">
                   {%- if  page.download_pdf -%}
 
-                  <a href="{{ page.download_pdf }}" download target="_top" class="button is-large is-danger">
+                  <a href="javascript:;" onclick="get_partitura()"  class="button is-large is-danger">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
                     <span>Download PDF</span>
                   </a>
+
+<script>
+
+ function get_partitura(){
+
+var sheet_music = '{{ page.download_pdf }}'
+Cookies.set('partitura_link', sheet_music, { expires: 7 })
+
+window.location.href = '{{ site.url }}/thank-download';
+
+  }
+</script>
 
 
                   {%- endif -%}
