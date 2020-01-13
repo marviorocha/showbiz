@@ -1,0 +1,718 @@
+
+15-09-2019 14:56:42.1568559402.6061 [172.19.0.7][5d7e51][info] Parent plugin start installation!
+15-09-2019 14:56:42.1568559402.6228 [172.19.0.7][5d7e51][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.4.0
+15-09-2019 14:56:42.1568559402.8616 [172.19.0.7][5d7e51][info] Parent plugin installation complete!
+15-09-2019 15:07:45.1568560065.2567 [172.19.0.7][5d7e53][info] Try to create backup directory. Backup dir: (/var/www/html/wp-content/uploads/wio_backup)
+15-09-2019 15:07:53.1568560073.5296 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:07:53.1568560073.5359 [172.19.0.7][5d7e53][info] Try to create backup directory. Backup dir: (/var/www/html/wp-content/uploads/wio_backup/2019/03)
+15-09-2019 15:07:53.1568560073.5374 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/logo.png) to a remote server (server_1).
+15-09-2019 15:07:53.1568560073.6687 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:07:53.1568560073.7389 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/logo-150x45.png) to a remote server (server_1).
+15-09-2019 15:07:53.1568560073.9496 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 74
+15-09-2019 15:07:54.1568560074.5347 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:07:54.1568560074.541 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/logo-1.png) to a remote server (server_1).
+15-09-2019 15:07:54.1568560074.7613 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #7). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 247x65
+	-> Relative path: 2019/03/logo-1.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x65, MIME type: image/png
+
+15-09-2019 15:07:54.1568560074.8334 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/logo-1.png, path: /var/www/html/wp-content/uploads/2019/03/logo-1.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:07:54.1568560074.8411 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 73
+15-09-2019 15:07:55.1568560075.4163 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:07:55.1568560075.8731 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/intro-bg.jpg) to a remote server (server_1).
+15-09-2019 15:07:56.1568560076.588 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:07:56.1568560076.6658 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/intro-bg-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:07:56.1568560076.7446 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:07:56.1568560076.8133 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/intro-bg-300x200.jpg) to a remote server (server_1).
+15-09-2019 15:07:56.1568560076.968 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:07:57.1568560077.0793 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 72
+15-09-2019 15:07:58.1568560078.3062 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:07:58.1568560078.7269 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/banner-bg.jpg) to a remote server (server_1).
+15-09-2019 15:07:59.1568560079.4238 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:07:59.1568560079.5714 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/banner-bg-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:07:59.1568560079.7046 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:07:59.1568560079.7718 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/banner-bg-300x204.jpg) to a remote server (server_1).
+15-09-2019 15:07:59.1568560079.8665 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:07:59.1568560079.9521 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 71
+15-09-2019 15:08:01.1568560081.2615 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:01.1568560081.2702 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/favicon.png) to a remote server (server_1).
+15-09-2019 15:08:01.1568560081.4658 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:01.1568560081.5073 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/favicon-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:01.1568560081.625 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:01.1568560081.6662 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/favicon-300x300.png) to a remote server (server_1).
+15-09-2019 15:08:01.1568560081.8058 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 70
+15-09-2019 15:08:02.1568560082.367 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:02.1568560082.3749 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-favicon.png) to a remote server (server_1).
+15-09-2019 15:08:02.1568560082.5568 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:02.1568560082.5984 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-favicon-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:02.1568560082.6902 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:02.1568560082.7319 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-favicon-300x300.png) to a remote server (server_1).
+15-09-2019 15:08:02.1568560082.8969 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:02.1568560082.966 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 69
+15-09-2019 15:08:03.1568560083.5552 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:03.1568560083.5617 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/open-source-festival-logo-7EF36801B7-seeklogo.com_-e1553379042396.png) to a remote server (server_1).
+15-09-2019 15:08:03.1568560083.9496 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:04.1568560084.0018 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/open-source-festival-logo-7EF36801B7-seeklogo.com_-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:04.1568560084.0945 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/open-source-festival-logo-7EF36801B7-seeklogo.com_-300x152.png) to a remote server (server_1).
+15-09-2019 15:08:04.1568560084.2662 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 68
+15-09-2019 15:08:04.1568560084.8226 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:04.1568560084.8322 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ead-ensino-distancia-mec.png) to a remote server (server_1).
+15-09-2019 15:08:05.1568560085.5762 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:05.1568560085.6502 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ead-ensino-distancia-mec-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:05.1568560085.8417 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:05.1568560085.9422 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ead-ensino-distancia-mec-300x113.png) to a remote server (server_1).
+15-09-2019 15:08:06.1568560086.1842 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:06.1568560086.2804 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 67
+15-09-2019 15:08:06.1568560086.8701 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:07.1568560087.336 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/2837px-BandLab_logo.svg_.png) to a remote server (server_1).
+15-09-2019 15:08:07.1568560087.4196 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #42). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1600x440
+	-> Relative path: 2019/03/2837px-BandLab_logo.svg_.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x82, MIME type: image/png
+		-> Type: medium_large, size: 768x211, MIME type: image/png
+		-> Type: large, size: 1024x282, MIME type: image/png
+		-> Type: hestia-blog, size: 360x240, MIME type: image/png
+
+15-09-2019 15:08:07.1568560087.4266 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/2837px-BandLab_logo.svg_.png, path: /var/www/html/wp-content/uploads/2019/03/2837px-BandLab_logo.svg_.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:07.1568560087.4442 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 66
+15-09-2019 15:08:08.1568560088.6618 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:08.1568560088.671 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/Cakewalk-1.png) to a remote server (server_1).
+15-09-2019 15:08:08.1568560088.837 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:08.1568560088.883 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/Cakewalk-1-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:09.1568560089.0436 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:09.1568560089.0938 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/Cakewalk-1-300x100.png) to a remote server (server_1).
+15-09-2019 15:08:09.1568560089.2384 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:09.1568560089.3257 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 65
+15-09-2019 15:08:09.1568560089.8989 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:09.1568560089.9064 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/Cakewalk-1-1.png) to a remote server (server_1).
+15-09-2019 15:08:09.1568560089.9745 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #66). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 640x213
+	-> Relative path: 2019/03/Cakewalk-1-1.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x100, MIME type: image/png
+		-> Type: hestia-blog, size: 360x213, MIME type: image/png
+		-> Type: hestia-portfolio, size: 360x213, MIME type: image/png
+		-> Type: jetpack-portfolio-admin-thumb, size: 50x50, MIME type: image/png
+
+15-09-2019 15:08:09.1568560089.9838 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/Cakewalk-1-1.png, path: /var/www/html/wp-content/uploads/2019/03/Cakewalk-1-1.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:09.1568560089.9927 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 64
+15-09-2019 15:08:10.1568560090.7114 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:11.1568560091.7715 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/guia.png) to a remote server (server_1).
+15-09-2019 15:08:13.1568560093.0579 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:13.1568560093.1451 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/guia-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:13.1568560093.2078 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/guia-300x200.png) to a remote server (server_1).
+15-09-2019 15:08:13.1568560093.4016 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:13.1568560093.4883 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 63
+15-09-2019 15:08:14.1568560094.8194 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:14.1568560094.8264 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/musescore_sticker625403x-e1553378900484.png) to a remote server (server_1).
+15-09-2019 15:08:14.1568560094.8808 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #82). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 300x111
+	-> Relative path: 2019/03/musescore_sticker625403x-e1553378900484.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x111, MIME type: image/png
+		-> Type: medium_large, size: 768x283, MIME type: image/png
+		-> Type: large, size: 1024x377, MIME type: image/png
+		-> Type: hestia-blog, size: 360x240, MIME type: image/png
+		-> Type: hestia-portfolio, size: 360x300, MIME type: image/png
+		-> Type: jetpack-portfolio-admin-thumb, size: 50x50, MIME type: image/png
+
+15-09-2019 15:08:14.1568560094.8898 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/musescore_sticker625403x-e1553378900484.png, path: /var/www/html/wp-content/uploads/2019/03/musescore_sticker625403x-e1553378900484.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:14.1568560094.9003 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 62
+15-09-2019 15:08:16.1568560096.101 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:16.1568560096.1137 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/What-Is-Midi_A_USB-CPU_1200x627.jpg) to a remote server (server_1).
+15-09-2019 15:08:16.1568560096.2474 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #89). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1200x627
+	-> Relative path: 2019/03/What-Is-Midi_A_USB-CPU_1200x627.jpg
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/jpeg
+		-> Type: medium, size: 300x157, MIME type: image/jpeg
+		-> Type: medium_large, size: 768x401, MIME type: image/jpeg
+		-> Type: large, size: 1024x535, MIME type: image/jpeg
+		-> Type: hestia-blog, size: 360x240, MIME type: image/jpeg
+
+15-09-2019 15:08:16.1568560096.2573 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/What-Is-Midi_A_USB-CPU_1200x627.jpg, path: /var/www/html/wp-content/uploads/2019/03/What-Is-Midi_A_USB-CPU_1200x627.jpg, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:16.1568560096.2762 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 61
+15-09-2019 15:08:17.1568560097.3675 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:17.1568560097.3751 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-2.jpg) to a remote server (server_1).
+15-09-2019 15:08:17.1568560097.8893 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:17.1568560097.9574 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-2-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:18.1568560098.0346 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:18.1568560098.0733 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-2-245x300.jpg) to a remote server (server_1).
+15-09-2019 15:08:18.1568560098.1611 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:18.1568560098.2349 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 60
+15-09-2019 15:08:18.1568560098.9019 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:18.1568560098.908 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-3.jpg) to a remote server (server_1).
+15-09-2019 15:08:19.1568560099.0838 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:19.1568560099.1401 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-3-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:19.1568560099.2289 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:19.1568560099.2741 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-3-245x300.jpg) to a remote server (server_1).
+15-09-2019 15:08:19.1568560099.3555 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:19.1568560099.4383 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 59
+15-09-2019 15:08:20.1568560100.0644 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:20.1568560100.0707 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-stars.png) to a remote server (server_1).
+15-09-2019 15:08:20.1568560100.1337 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:20.1568560100.2097 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 58
+15-09-2019 15:08:21.1568560101.0666 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:21.1568560101.0716 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-avatar.png) to a remote server (server_1).
+15-09-2019 15:08:21.1568560101.1577 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:21.1568560101.2371 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 57
+15-09-2019 15:08:21.1568560101.8203 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:21.1568560101.8287 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-testimonial-bg.jpg) to a remote server (server_1).
+15-09-2019 15:08:21.1568560101.9032 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #101). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1400x866
+	-> Relative path: 2019/03/ether-testimonial-bg.jpg
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/jpeg
+		-> Type: medium, size: 300x186, MIME type: image/jpeg
+		-> Type: medium_large, size: 768x475, MIME type: image/jpeg
+		-> Type: large, size: 1024x633, MIME type: image/jpeg
+		-> Type: hestia-blog, size: 360x240, MIME type: image/jpeg
+
+15-09-2019 15:08:21.1568560101.9103 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/ether-testimonial-bg.jpg, path: /var/www/html/wp-content/uploads/2019/03/ether-testimonial-bg.jpg, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:21.1568560101.927 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 56
+15-09-2019 15:08:22.1568560102.5374 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:22.1568560102.5451 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-4.jpg) to a remote server (server_1).
+15-09-2019 15:08:23.1568560103.0817 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:23.1568560103.1806 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-4-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:23.1568560103.256 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:23.1568560103.2995 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ether-product-4-245x300.jpg) to a remote server (server_1).
+15-09-2019 15:08:23.1568560103.4759 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:23.1568560103.5813 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 55
+15-09-2019 15:08:24.1568560104.131 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:24.1568560104.1401 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/SKU45888-2.jpg) to a remote server (server_1).
+15-09-2019 15:08:24.1568560104.3986 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:24.1568560104.4987 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/SKU45888-2-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:24.1568560104.592 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:24.1568560104.6407 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/SKU45888-2-300x200.jpg) to a remote server (server_1).
+15-09-2019 15:08:24.1568560104.7436 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:24.1568560104.8146 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 54
+15-09-2019 15:08:25.1568560105.5016 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:25.1568560105.508 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-favicon-1.png) to a remote server (server_1).
+15-09-2019 15:08:25.1568560105.7074 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:25.1568560105.7563 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-favicon-1-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:25.1568560105.8176 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-favicon-1-300x300.png) to a remote server (server_1).
+15-09-2019 15:08:25.1568560105.9153 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 53
+15-09-2019 15:08:26.1568560106.4957 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:26.1568560106.5055 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/1-en-b-1.jpg) to a remote server (server_1).
+15-09-2019 15:08:26.1568560106.6602 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:26.1568560106.7311 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/1-en-b-1-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:26.1568560106.8295 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:26.1568560106.8723 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/1-en-b-1-300x208.jpg) to a remote server (server_1).
+15-09-2019 15:08:27.1568560107.0601 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:27.1568560107.1708 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 52
+15-09-2019 15:08:27.1568560107.7676 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:27.1568560107.8279 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/agml01.jpg) to a remote server (server_1).
+15-09-2019 15:08:27.1568560107.9344 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #208). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1252x608
+	-> Relative path: 2019/03/agml01.jpg
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/jpeg
+		-> Type: medium, size: 300x146, MIME type: image/jpeg
+		-> Type: medium_large, size: 768x373, MIME type: image/jpeg
+		-> Type: large, size: 1024x497, MIME type: image/jpeg
+		-> Type: hestia-blog, size: 360x240, MIME type: image/jpeg
+
+15-09-2019 15:08:27.1568560107.9439 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/agml01.jpg, path: /var/www/html/wp-content/uploads/2019/03/agml01.jpg, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:27.1568560107.9573 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 51
+15-09-2019 15:08:28.1568560108.5943 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:28.1568560108.6041 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/tele.png) to a remote server (server_1).
+15-09-2019 15:08:28.1568560108.6804 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #272). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1060x753
+	-> Relative path: 2019/03/tele.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x213, MIME type: image/png
+		-> Type: medium_large, size: 768x546, MIME type: image/png
+		-> Type: large, size: 1024x727, MIME type: image/png
+		-> Type: hestia-blog, size: 360x240, MIME type: image/png
+
+15-09-2019 15:08:28.1568560108.6877 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/tele.png, path: /var/www/html/wp-content/uploads/2019/03/tele.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:28.1568560108.7 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 50
+15-09-2019 15:08:29.1568560109.2846 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:29.1568560109.2948 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/sprint.png) to a remote server (server_1).
+15-09-2019 15:08:29.1568560109.3847 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #273). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 739x477
+	-> Relative path: 2019/03/sprint.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x194, MIME type: image/png
+		-> Type: hestia-blog, size: 360x240, MIME type: image/png
+
+15-09-2019 15:08:29.1568560109.3921 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/sprint.png, path: /var/www/html/wp-content/uploads/2019/03/sprint.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:29.1568560109.4022 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 49
+15-09-2019 15:08:30.1568560110.0165 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:30.1568560110.0242 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/placeholder.png) to a remote server (server_1).
+15-09-2019 15:08:30.1568560110.6535 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:30.1568560110.695 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/placeholder-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:30.1568560110.7529 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/placeholder-300x200.png) to a remote server (server_1).
+15-09-2019 15:08:30.1568560110.8496 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 48
+15-09-2019 15:08:31.1568560111.4364 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:32.1568560112.047 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/header-background.jpg) to a remote server (server_1).
+15-09-2019 15:08:32.1568560112.5149 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:32.1568560112.6371 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/header-background-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:32.1568560112.7278 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:32.1568560112.7714 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/header-background-300x201.jpg) to a remote server (server_1).
+15-09-2019 15:08:32.1568560112.9289 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:33.1568560113.0172 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 47
+15-09-2019 15:08:34.1568560114.0169 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:34.1568560114.0238 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/iPhone.png) to a remote server (server_1).
+15-09-2019 15:08:34.1568560114.2106 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:34.1568560114.2782 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/iPhone-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:34.1568560114.6408 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:34.1568560114.7123 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/iPhone-105x300.png) to a remote server (server_1).
+15-09-2019 15:08:34.1568560114.9597 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:35.1568560115.0557 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 46
+15-09-2019 15:08:35.1568560115.6108 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:35.1568560115.6168 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/testim1.jpg) to a remote server (server_1).
+15-09-2019 15:08:35.1568560115.7286 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:35.1568560115.7731 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/testim1-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:35.1568560115.8806 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 45
+15-09-2019 15:08:36.1568560116.4632 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:36.1568560116.4696 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/testim2.jpg) to a remote server (server_1).
+15-09-2019 15:08:36.1568560116.559 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:36.1568560116.6012 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/testim2-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:36.1568560116.8021 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 44
+15-09-2019 15:08:37.1568560117.4248 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:37.1568560117.4321 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/testim3.jpg) to a remote server (server_1).
+15-09-2019 15:08:37.1568560117.4988 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #294). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 240x159
+	-> Relative path: 2019/03/testim3.jpg
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/jpeg
+
+15-09-2019 15:08:37.1568560117.5077 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/testim3.jpg, path: /var/www/html/wp-content/uploads/2019/03/testim3.jpg, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:37.1568560117.5216 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 43
+15-09-2019 15:08:38.1568560118.0773 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:38.1568560118.0853 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/testimbg.jpg) to a remote server (server_1).
+15-09-2019 15:08:38.1568560118.1574 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #295). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1600x1066
+	-> Relative path: 2019/03/testimbg.jpg
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/jpeg
+		-> Type: medium, size: 300x200, MIME type: image/jpeg
+		-> Type: medium_large, size: 768x512, MIME type: image/jpeg
+		-> Type: large, size: 1024x682, MIME type: image/jpeg
+		-> Type: hestia-blog, size: 360x240, MIME type: image/jpeg
+
+15-09-2019 15:08:38.1568560118.1663 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/testimbg.jpg, path: /var/www/html/wp-content/uploads/2019/03/testimbg.jpg, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:38.1568560118.1835 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 42
+15-09-2019 15:08:38.1568560118.764 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:38.1568560118.777 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/stories2.jpg) to a remote server (server_1).
+15-09-2019 15:08:39.1568560119.6039 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:39.1568560119.7527 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/stories2-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:39.1568560119.8943 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:39.1568560119.9438 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/stories2-300x200.jpg) to a remote server (server_1).
+15-09-2019 15:08:40.1568560120.0584 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:40.1568560120.1471 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 41
+15-09-2019 15:08:40.1568560120.6895 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:41.1568560121.099 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/piano-1655558_1920.jpg) to a remote server (server_1).
+15-09-2019 15:08:41.1568560121.2904 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #305). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1600x1067
+	-> Relative path: 2019/03/piano-1655558_1920.jpg
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/jpeg
+		-> Type: medium, size: 300x200, MIME type: image/jpeg
+		-> Type: medium_large, size: 768x512, MIME type: image/jpeg
+		-> Type: large, size: 1024x683, MIME type: image/jpeg
+		-> Type: hestia-blog, size: 360x240, MIME type: image/jpeg
+
+15-09-2019 15:08:41.1568560121.2985 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/piano-1655558_1920.jpg, path: /var/www/html/wp-content/uploads/2019/03/piano-1655558_1920.jpg, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:41.1568560121.3077 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 40
+15-09-2019 15:08:42.1568560122.4449 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:42.1568560122.8802 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/piano-3505109_1920.jpg) to a remote server (server_1).
+15-09-2019 15:08:43.1568560123.2532 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:43.1568560123.3343 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/piano-3505109_1920-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:43.1568560123.4332 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:43.1568560123.482 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/piano-3505109_1920-300x200.jpg) to a remote server (server_1).
+15-09-2019 15:08:43.1568560123.5958 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:43.1568560123.6974 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 39
+15-09-2019 15:08:44.1568560124.7756 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:44.1568560124.7837 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/teoria-musical.jpg) to a remote server (server_1).
+15-09-2019 15:08:45.1568560125.1081 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:45.1568560125.1963 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/teoria-musical-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:45.1568560125.3761 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/teoria-musical-300x163.jpg) to a remote server (server_1).
+15-09-2019 15:08:45.1568560125.4838 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:45.1568560125.5777 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 38
+15-09-2019 15:08:46.1568560126.205 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:46.1568560126.2162 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/u4.png) to a remote server (server_1).
+15-09-2019 15:08:46.1568560126.9941 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:47.1568560127.1211 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/u4-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:47.1568560127.263 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:47.1568560127.31 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/u4-300x180.png) to a remote server (server_1).
+15-09-2019 15:08:47.1568560127.4424 [172.19.0.7][5d7e53][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:47.1568560127.5298 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 37
+15-09-2019 15:08:48.1568560128.0802 [172.19.0.7][5d7e53][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:48.1568560128.0995 [172.19.0.7][5d7e53][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ebook_music.png) to a remote server (server_1).
+15-09-2019 15:08:48.1568560128.4134 [172.19.0.7][5d7e53][error] Error to optimize attachment (ID: #319). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1040x693
+	-> Relative path: 2019/03/ebook_music.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x200, MIME type: image/png
+		-> Type: medium_large, size: 768x512, MIME type: image/png
+		-> Type: large, size: 1024x682, MIME type: image/png
+		-> Type: hestia-blog, size: 360x240, MIME type: image/png
+
+15-09-2019 15:08:48.1568560128.4231 [172.19.0.7][5d7e53][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/ebook_music.png, path: /var/www/html/wp-content/uploads/2019/03/ebook_music.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:48.1568560128.4372 [172.19.0.7][5d7e53][info] End bulk optimization process! Scope: media-library. Remain: 36
+15-09-2019 15:08:49.1568560129.0003 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:49.1568560129.0184 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ava4.png) to a remote server (server_1).
+15-09-2019 15:08:50.1568560130.1585 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:50.1568560130.2215 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ava4-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:50.1568560130.8326 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:50.1568560130.8934 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ava4-300x300.png) to a remote server (server_1).
+15-09-2019 15:08:51.1568560131.5906 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:51.1568560131.6794 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 35
+15-09-2019 15:08:52.1568560132.2058 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:52.1568560132.2183 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ava2.png) to a remote server (server_1).
+15-09-2019 15:08:53.1568560133.0889 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:53.1568560133.1525 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ava2-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:53.1568560133.4411 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/ava2-300x300.png) to a remote server (server_1).
+15-09-2019 15:08:53.1568560133.9571 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:54.1568560134.0719 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 34
+15-09-2019 15:08:54.1568560134.605 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:54.1568560134.6137 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/SONAR_hero-988x416.jpg) to a remote server (server_1).
+15-09-2019 15:08:54.1568560134.7663 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:54.1568560134.827 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/SONAR_hero-988x416-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:08:54.1568560134.9206 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:54.1568560134.9634 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/SONAR_hero-988x416-300x126.jpg) to a remote server (server_1).
+15-09-2019 15:08:55.1568560135.0538 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:55.1568560135.1298 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 33
+15-09-2019 15:08:55.1568560135.676 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:55.1568560135.683 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/photo-1524103416206-a67f05a8154b.jpg) to a remote server (server_1).
+15-09-2019 15:08:55.1568560135.8334 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #368). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1000x667
+	-> Relative path: 2019/03/photo-1524103416206-a67f05a8154b.jpg
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/jpeg
+		-> Type: medium, size: 300x200, MIME type: image/jpeg
+		-> Type: medium_large, size: 768x512, MIME type: image/jpeg
+		-> Type: hestia-blog, size: 360x240, MIME type: image/jpeg
+
+15-09-2019 15:08:55.1568560135.844 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/photo-1524103416206-a67f05a8154b.jpg, path: /var/www/html/wp-content/uploads/2019/03/photo-1524103416206-a67f05a8154b.jpg, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:08:55.1568560135.8602 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 32
+15-09-2019 15:08:56.1568560136.4224 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:56.1568560136.4334 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cakewalk-open-graph-040d0fdf3f.png) to a remote server (server_1).
+15-09-2019 15:08:57.1568560137.2811 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:57.1568560137.3661 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cakewalk-open-graph-040d0fdf3f-150x150.png) to a remote server (server_1).
+15-09-2019 15:08:57.1568560137.6712 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cakewalk-open-graph-040d0fdf3f-300x158.png) to a remote server (server_1).
+15-09-2019 15:08:57.1568560137.9431 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:08:58.1568560138.0345 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 31
+15-09-2019 15:08:58.1568560138.6304 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:08:59.1568560139.3358 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/my_avatar.jpg) to a remote server (server_1).
+15-09-2019 15:09:00.1568560140.0533 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:00.1568560140.1914 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/my_avatar-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:09:00.1568560140.2841 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:00.1568560140.3277 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/my_avatar-300x300.jpg) to a remote server (server_1).
+15-09-2019 15:09:00.1568560140.5905 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 30
+15-09-2019 15:09:01.1568560141.6525 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:01.1568560141.6618 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/garantia.png) to a remote server (server_1).
+15-09-2019 15:09:02.1568560142.3417 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:02.1568560142.4067 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/garantia-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:02.1568560142.6793 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:02.1568560142.7268 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/garantia-300x221.png) to a remote server (server_1).
+15-09-2019 15:09:03.1568560143.5003 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:03.1568560143.6619 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 29
+15-09-2019 15:09:04.1568560144.3162 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:04.1568560144.3236 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/WWpPkX4Y1wj6VdgTsYyUhG0of8P0UXtRPbVJKAAAAAElFTkSuQmCC.png) to a remote server (server_1).
+15-09-2019 15:09:04.1568560144.4244 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:04.1568560144.4674 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/WWpPkX4Y1wj6VdgTsYyUhG0of8P0UXtRPbVJKAAAAAElFTkSuQmCC-150x143.png) to a remote server (server_1).
+15-09-2019 15:09:04.1568560144.5679 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:04.1568560144.6104 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/WWpPkX4Y1wj6VdgTsYyUhG0of8P0UXtRPbVJKAAAAAElFTkSuQmCC-300x140.png) to a remote server (server_1).
+15-09-2019 15:09:04.1568560144.7824 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:04.1568560144.8718 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 28
+15-09-2019 15:09:05.1568560145.4515 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:05.1568560145.7767 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/5a86d5d868b4170001719715_newlogo-eduzz.png) to a remote server (server_1).
+15-09-2019 15:09:06.1568560146.5049 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:06.1568560146.5788 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/5a86d5d868b4170001719715_newlogo-eduzz-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:06.1568560146.7024 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:06.1568560146.7476 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/5a86d5d868b4170001719715_newlogo-eduzz-300x98.png) to a remote server (server_1).
+15-09-2019 15:09:06.1568560146.9418 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:07.1568560147.0347 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 27
+15-09-2019 15:09:08.1568560148.062 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:08.1568560148.9096 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/assinatura.png) to a remote server (server_1).
+15-09-2019 15:09:10.1568560150.0906 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:10.1568560150.162 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/assinatura-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:10.1568560150.2569 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:10.1568560150.2976 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/assinatura-300x188.png) to a remote server (server_1).
+15-09-2019 15:09:10.1568560150.4264 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:10.1568560150.5072 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 26
+15-09-2019 15:09:11.1568560151.5369 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:11.1568560151.5445 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/banner.png) to a remote server (server_1).
+15-09-2019 15:09:11.1568560151.8127 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:11.1568560151.8755 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/banner-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:12.1568560152.0587 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:12.1568560152.1188 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/banner-300x250.png) to a remote server (server_1).
+15-09-2019 15:09:12.1568560152.3589 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 25
+15-09-2019 15:09:12.1568560152.9115 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:12.1568560152.9172 [172.19.0.7][5d7e54][info] Try to create backup directory. Backup dir: (/var/www/html/wp-content/uploads/wio_backup/2019/04)
+15-09-2019 15:09:12.1568560152.9185 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/04/images-7.jpg) to a remote server (server_1).
+15-09-2019 15:09:12.1568560152.991 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:13.1568560153.0301 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/04/images-7-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:09:13.1568560153.1777 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:13.1568560153.2456 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/04/images-7-300x168.jpg) to a remote server (server_1).
+15-09-2019 15:09:13.1568560153.331 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:13.1568560153.4088 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 24
+15-09-2019 15:09:14.1568560154.0831 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:14.1568560154.6228 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/04/image.png) to a remote server (server_1).
+15-09-2019 15:09:14.1568560154.7847 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #461). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1600x516
+	-> Relative path: 2019/04/image.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x97, MIME type: image/png
+		-> Type: medium_large, size: 768x248, MIME type: image/png
+		-> Type: large, size: 1024x330, MIME type: image/png
+		-> Type: hestia-blog, size: 360x240, MIME type: image/png
+
+15-09-2019 15:09:14.1568560154.791 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/04/image.png, path: /var/www/html/wp-content/uploads/2019/04/image.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:09:14.1568560154.8011 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 23
+15-09-2019 15:09:15.1568560155.8324 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:16.1568560156.2716 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/04/apostila-de-como-tirar-musica-de-ouvido.jpg) to a remote server (server_1).
+15-09-2019 15:09:17.1568560157.1306 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:17.1568560157.2628 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/04/apostila-de-como-tirar-musica-de-ouvido-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:09:17.1568560157.3753 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:17.1568560157.4203 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/04/apostila-de-como-tirar-musica-de-ouvido-300x199.jpg) to a remote server (server_1).
+15-09-2019 15:09:17.1568560157.5357 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:17.1568560157.6323 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 22
+15-09-2019 15:09:18.1568560158.6847 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:18.1568560158.6926 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/woocommerce-placeholder.png) to a remote server (server_1).
+15-09-2019 15:09:19.1568560159.7463 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:19.1568560159.8184 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/woocommerce-placeholder-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:20.1568560160.1079 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/woocommerce-placeholder-300x300.png) to a remote server (server_1).
+15-09-2019 15:09:20.1568560160.2399 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:20.1568560160.3694 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 21
+15-09-2019 15:09:20.1568560160.9417 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:20.1568560160.9483 [172.19.0.7][5d7e54][info] Try to create backup directory. Backup dir: (/var/www/html/wp-content/uploads/wio_backup/2019/07)
+15-09-2019 15:09:20.1568560160.9497 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/D_NQ_NP_22472-MLA20230184875_012015-Q.jpg) to a remote server (server_1).
+15-09-2019 15:09:21.1568560161.0787 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:21.1568560161.1332 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/D_NQ_NP_22472-MLA20230184875_012015-Q-150x150.jpg) to a remote server (server_1).
+15-09-2019 15:09:21.1568560161.2131 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:21.1568560161.2888 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 20
+15-09-2019 15:09:21.1568560161.9856 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:21.1568560161.9966 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/botC3A3o-comprar-agora-ereC3A7C3A3o-perfeita.png) to a remote server (server_1).
+15-09-2019 15:09:22.1568560162.1218 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:22.1568560162.1633 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/botC3A3o-comprar-agora-ereC3A7C3A3o-perfeita-150x134.png) to a remote server (server_1).
+15-09-2019 15:09:22.1568560162.3163 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:22.1568560162.4259 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/botC3A3o-comprar-agora-ereC3A7C3A3o-perfeita-300x86.png) to a remote server (server_1).
+15-09-2019 15:09:22.1568560162.5989 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 19
+15-09-2019 15:09:23.1568560163.2466 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:23.1568560163.2527 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/logo-2.png) to a remote server (server_1).
+15-09-2019 15:09:23.1568560163.4131 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:23.1568560163.4633 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/logo-2-131x150.png) to a remote server (server_1).
+15-09-2019 15:09:23.1568560163.5674 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:23.1568560163.6584 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 18
+15-09-2019 15:09:24.1568560164.2317 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:24.1568560164.2846 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/Untitled-1-1.png) to a remote server (server_1).
+15-09-2019 15:09:24.1568560164.5036 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #652). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1600x897
+	-> Relative path: 2019/07/Untitled-1-1.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x168, MIME type: image/png
+		-> Type: medium_large, size: 768x431, MIME type: image/png
+		-> Type: large, size: 1024x574, MIME type: image/png
+
+15-09-2019 15:09:24.1568560164.5102 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/07/Untitled-1-1.png, path: /var/www/html/wp-content/uploads/2019/07/Untitled-1-1.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:09:24.1568560164.52 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 17
+15-09-2019 15:09:25.1568560165.0744 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:25.1568560165.0819 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/smart-watch1-1.png) to a remote server (server_1).
+15-09-2019 15:09:25.1568560165.534 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:25.1568560165.6198 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/smart-watch1-1-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:25.1568560165.7364 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/smart-watch1-1-267x300.png) to a remote server (server_1).
+15-09-2019 15:09:25.1568560165.9042 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 16
+15-09-2019 15:09:26.1568560166.502 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:26.1568560166.5091 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/circle-1.png) to a remote server (server_1).
+15-09-2019 15:09:26.1568560166.5774 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #654). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 189x189
+	-> Relative path: 2019/07/circle-1.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+
+15-09-2019 15:09:26.1568560166.584 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/07/circle-1.png, path: /var/www/html/wp-content/uploads/2019/07/circle-1.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:09:26.1568560166.5923 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 15
+15-09-2019 15:09:27.1568560167.35 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:27.1568560167.3668 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/circle2-1.png) to a remote server (server_1).
+15-09-2019 15:09:27.1568560167.4882 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:27.1568560167.5405 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/circle2-1-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:27.1568560167.6443 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:27.1568560167.7158 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 14
+15-09-2019 15:09:28.1568560168.2524 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:28.1568560168.2602 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/circle3-1.png) to a remote server (server_1).
+15-09-2019 15:09:28.1568560168.3346 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #656). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 189x189
+	-> Relative path: 2019/07/circle3-1.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+
+15-09-2019 15:09:28.1568560168.3429 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/07/circle3-1.png, path: /var/www/html/wp-content/uploads/2019/07/circle3-1.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:09:28.1568560168.3615 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 13
+15-09-2019 15:09:28.1568560168.9404 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:28.1568560168.9684 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/cover-pic-1.png) to a remote server (server_1).
+15-09-2019 15:09:29.1568560169.0864 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #657). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 1600x659
+	-> Relative path: 2019/07/cover-pic-1.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+		-> Type: medium, size: 300x124, MIME type: image/png
+		-> Type: medium_large, size: 768x316, MIME type: image/png
+		-> Type: large, size: 1024x422, MIME type: image/png
+
+15-09-2019 15:09:29.1568560169.096 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/07/cover-pic-1.png, path: /var/www/html/wp-content/uploads/2019/07/cover-pic-1.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:09:29.1568560169.1088 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 12
+15-09-2019 15:09:29.1568560169.6539 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:29.1568560169.6607 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/snycy.png) to a remote server (server_1).
+15-09-2019 15:09:29.1568560169.7719 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:29.1568560169.8235 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/snycy-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:29.1568560169.9302 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:30.1568560170.0191 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 11
+15-09-2019 15:09:30.1568560170.6341 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:30.1568560170.6416 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/x.venox_.png) to a remote server (server_1).
+15-09-2019 15:09:30.1568560170.8046 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:30.1568560170.8648 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/x.venox_-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:31.1568560171.1422 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 10
+15-09-2019 15:09:31.1568560171.6767 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:31.1568560171.6843 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/quest.png) to a remote server (server_1).
+15-09-2019 15:09:31.1568560171.7648 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:31.1568560171.8054 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/quest-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:31.1568560171.892 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:31.1568560171.9665 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 9
+15-09-2019 15:09:32.1568560172.5833 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:32.1568560172.5899 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/geo.png) to a remote server (server_1).
+15-09-2019 15:09:32.1568560172.6713 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:32.1568560172.7157 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/geo-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:32.1568560172.9134 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 8
+15-09-2019 15:09:33.1568560173.5046 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:33.1568560173.5114 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/madrin.png) to a remote server (server_1).
+15-09-2019 15:09:33.1568560173.6057 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #662). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 200x150
+	-> Relative path: 2019/07/madrin.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x150, MIME type: image/png
+
+15-09-2019 15:09:33.1568560173.6134 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/07/madrin.png, path: /var/www/html/wp-content/uploads/2019/07/madrin.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:09:33.1568560173.6253 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 7
+15-09-2019 15:09:34.1568560174.1969 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:34.1568560174.203 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/digit.png) to a remote server (server_1).
+15-09-2019 15:09:34.1568560174.2709 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:34.1568560174.3122 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/digit-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:34.1568560174.3914 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:34.1568560174.4689 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 6
+15-09-2019 15:09:35.1568560175.2476 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:35.1568560175.2587 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/mapmaster.png) to a remote server (server_1).
+15-09-2019 15:09:35.1568560175.3654 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:35.1568560175.4172 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/mapmaster-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:35.1568560175.5146 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:35.1568560175.593 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 5
+15-09-2019 15:09:36.1568560176.1508 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:36.1568560176.1597 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/masso.png) to a remote server (server_1).
+15-09-2019 15:09:36.1568560176.2592 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:36.1568560176.2992 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/07/masso-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:36.1568560176.4513 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:36.1568560176.554 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 4
+15-09-2019 15:09:37.1568560177.1203 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:37.1568560177.1259 [172.19.0.7][5d7e54][info] Try to create backup directory. Backup dir: (/var/www/html/wp-content/uploads/wio_backup/2019/08)
+15-09-2019 15:09:37.1568560177.1311 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/08/eboo-guia-digital.png) to a remote server (server_1).
+15-09-2019 15:09:37.1568560177.9948 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:38.1568560178.0823 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/08/eboo-guia-digital-150x150.png) to a remote server (server_1).
+15-09-2019 15:09:38.1568560178.3082 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:38.1568560178.3563 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/08/eboo-guia-digital-257x300.png) to a remote server (server_1).
+15-09-2019 15:09:38.1568560178.679 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:38.1568560178.7703 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 3
+15-09-2019 15:09:39.1568560179.3317 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:39.1568560179.3518 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-logo-1.png) to a remote server (server_1).
+15-09-2019 15:09:39.1568560179.4986 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:39.1568560179.5395 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-logo-1-150x96.png) to a remote server (server_1).
+15-09-2019 15:09:39.1568560179.6413 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:39.1568560179.7222 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-logo-1-300x79.png) to a remote server (server_1).
+15-09-2019 15:09:39.1568560179.8652 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:39.1568560179.9432 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 2
+15-09-2019 15:09:40.1568560180.5282 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:40.1568560180.5342 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-logo.png) to a remote server (server_1).
+15-09-2019 15:09:40.1568560180.8577 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:40.1568560180.9228 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-logo-150x96.png) to a remote server (server_1).
+15-09-2019 15:09:41.1568560181.0871 [172.19.0.7][5d7e54][info] File successfully uploaded to remote server (server_1).
+15-09-2019 15:09:41.1568560181.1314 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-logo-300x77.png) to a remote server (server_1).
+15-09-2019 15:09:41.1568560181.3643 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 1
+15-09-2019 15:09:41.1568560181.9365 [172.19.0.7][5d7e54][info] Start bulk optimization process! Scope: media-library
+15-09-2019 15:09:41.1568560181.9435 [172.19.0.7][5d7e54][info] Preparing to upload a file (/var/www/html/wp-content/uploads/2019/03/cropped-logo-2.png) to a remote server (server_1).
+15-09-2019 15:09:42.1568560182.0988 [172.19.0.7][5d7e54][error] Error to optimize attachment (ID: #956). Message: "Cannot copy from uploaded file"
+	-> Attachment optimized? No
+	-> Should be resized? No
+	-> Original size: 373x96
+	-> Relative path: 2019/03/cropped-logo-2.png
+	-> Server used: server_1
+	->  Additional sizes:
+		-> Type: thumbnail, size: 150x96, MIME type: image/png
+		-> Type: medium, size: 300x77, MIME type: image/png
+
+15-09-2019 15:09:42.1568560182.1077 [172.19.0.7][5d7e54][error] Failed to process (url: https://www.showbiz.mus.br/wp-content/uploads/2019/03/cropped-logo-2.png, path: /var/www/html/wp-content/uploads/2019/03/cropped-logo-2.png, quality: 90) as error was returned: Cannot copy from uploaded file
+15-09-2019 15:09:42.1568560182.1224 [172.19.0.7][5d7e54][info] End bulk optimization process! Scope: media-library. Remain: 0

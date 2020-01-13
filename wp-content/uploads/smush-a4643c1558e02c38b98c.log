@@ -1,0 +1,15 @@
+[2019-07-27 16:40:18 : INFO] - 
+ 
+[2019-07-27 16:40:18 : INFO] - Header for logs at time:  Sat, 27 Jul 2019 16:40:18 +0000 on https://www.showbiz.mus.br 
+[2019-07-27 16:40:18 : INFO] - WP: 5.2.2 
+[2019-07-27 16:40:18 : INFO] - PHP: 7.3.7 (fpm-fcgi, Linux 301d2fc89ca9 4.15.0-55-generic #60-Ubuntu SMP Tue Jul 2 18:22:20 UTC 2019 x86_64) 
+[2019-07-27 16:40:18 : INFO] - MySQL: 5.5.5 
+[2019-07-27 16:40:18 : INFO] - WPLANG: pt_BR 
+[2019-07-27 16:40:18 : INFO] - Server: nginx/1.17.1 
+[2019-07-27 16:40:18 : INFO] - Outbound connections: N 
+[2019-07-27 16:40:18 : INFO] - safe_mode: 0 
+[2019-07-27 16:40:18 : INFO] - max_execution_time: 300 
+[2019-07-27 16:40:18 : INFO] - memory_limit: 268435456 (used: 16.3M | 18M) 
+[2019-07-27 16:40:18 : INFO] - multisite: N 
+[2019-07-27 16:40:18 : INFO] - openssl: OpenSSL 1.1.1c  28 May 2019 
+[2019-07-27 16:40:18 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
