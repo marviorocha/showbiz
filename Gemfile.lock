@@ -55,6 +55,8 @@ GEM
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.15.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.0.1)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.6.1)
@@ -133,6 +135,7 @@ DEPENDENCIES
   jekyll-algolia
   jekyll-feed (~> 0.12)
   jekyll-paginate
+  jekyll-redirect-from
   mechanize
   minima (~> 2.5)
   rest-client
