@@ -4,7 +4,8 @@ title: Partitura Grátis
 icon: music
 redirect_from:
   - partituras/piano-partituras/garota-de-ipanema-nivel-avancado/
-  - undefined
+  - undefined/
+  - 3846/partituras/
   - instrumental/sax/partituras-com-solo-de-sax-e-piano-gratis/
   - instrumental/sax/partituras-com-solo-de-sax-e-piano-gratis/
   - mais-de-20-partituras-diferentes-para-natal-e-final-de-ano/
