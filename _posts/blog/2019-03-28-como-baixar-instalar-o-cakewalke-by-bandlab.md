@@ -4,8 +4,9 @@ title: Como baixar e Instalar o Cakewalk by BandLab
 date: 2019-03-28T19:54:22-03:00
 author: Showbiz Mus
 layout: post
-guid: https://www.showbiz.mus.br/?p=284
-permalink: /download/
+redirect_from: 
+  - /musica/como-baixar-instalar-o-cakewalke-by-bandlab/
+permalink: /blog/como-baixar-instalar-0-cakewalke-by-bandlab
 comments: true
 onesignal: true
 image: /wp-content/uploads/2019/03/cakewalk-open-graph-040d0fdf3f.png
