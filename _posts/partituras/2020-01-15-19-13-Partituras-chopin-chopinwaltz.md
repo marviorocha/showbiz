@@ -1,5 +1,5 @@
 ---
-title: Partituras Chopin -  Chopin: Waltz in f, op.70n.2 arr.
+title: Partituras Chopin - Waltz in f op.70 n 2
 subtitle: Waltz in f, op.70n.2
 permalink: /partituras-chopin-chopin-waltz-in-f-op-70n-2-arr/
 date: 2020-01-15-19-13
