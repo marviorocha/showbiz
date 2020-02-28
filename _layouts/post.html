@@ -29,7 +29,18 @@ layout: default
         <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
       </ul>
     </nav>
+    <p></p>
   </main>
+<section>
+ 
+  <a target="_blank" href="http://bit.ly/editoracao-musical-musescore">
+    <figure class="image">
+      <img alt="Editoração de Partitura com MuseScore 3"
+      src="{{ 'assets/images/banner-principal-musescore.png' | relative_url }}">
+    </figure>
+  </a>
+</section>
+
 </section>
 <section class="section">
 
@@ -51,17 +62,17 @@ layout: default
           </header>
 
           <div class="content is-medium" itemprop="articleBody">
-            
+
             <div class="columns">
-              
+
               <div class="column is-6">
                 <img alt="{{ page.title }}" src="{{ page.image }}">
               </div>
-              
-              
-              
+
+
+
               <!-- page partitura filter ----------------- // -->
-              
+
               {%- if page.category == "partituras" -%}
               <div class="column is-5">
                 <b>Partitura:</b> {{ page.subtitle }}
@@ -71,55 +82,56 @@ layout: default
                 <b>Descrição:</b> {{ content}}
                 <p class="section buttons">
                   {%- if  page.download_pdf -%}
-                  
-                  <a href="javascript:;" onclick="get_partitura()"  class="button is-large is-danger">
+
+                  <a href="javascript:;" onclick="get_partitura()" class="button is-large is-danger">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
                     <span>Download PDF</span>
                   </a>
-                  
+
                   <script>
+                    function get_partitura() {
 
-                    function get_partitura(){
-                      
                       var sheet_music = '{{ page.download_pdf }}'
-                      Cookies.set('partitura_link', sheet_music, { expires: 7 })
-                      
+                      Cookies.set('partitura_link', sheet_music, {
+                        expires: 7
+                      })
+
                       window.location.href = '{{ site.url }}/thank-download';
-                      
+
                     }
-                    </script>
+                  </script>
 
 
-{%- endif -%}
-</div>
-{%- endif -%} <!--  End filter partituras ------------ // -->
-</div>
-<!-- page blog filter --------------------- // -->
+                  {%- endif -%}
+              </div>
+              {%- endif -%}
+              <!--  End filter partituras ------------ // -->
+            </div>
+            <!-- page blog filter --------------------- // -->
 
-{%- if page.category == "blog" -%}
-{{ content }}
-{%- endif -%}
+            {%- if page.category == "blog" -%}
+            {{ content }}
+            {%- endif -%}
 
-<div class="section">
-  {%- include shered.html -%}
-  
-  {%- include disqus_comments.html -%}
-</div>
+            <div class="section">
+              {%- include shered.html -%}
 
-</div>
+              {%- include disqus_comments.html -%}
+            </div>
 
-</div>
+          </div>
 
-</p>
-</article>
-<div class="column is-3 has-background-light">
+      </div>
+
+      </p>
+      </article>
+      <div class="column is-3 has-background-light">
         {%- include sidebar.html -%}
       </div>
-    </section>
-    
-  </div>
-  
-</div> <!-- end /div columns----------- // -->
+</section>
 
+</div>
+
+</div> <!-- end /div columns----------- // -->
