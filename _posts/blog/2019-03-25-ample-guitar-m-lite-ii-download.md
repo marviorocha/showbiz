@@ -7,9 +7,7 @@ layout: post
 guid: https://www.showbiz.mus.br/?p=206
 permalink: /musica/ample-guitar-m-lite-ii-download/
 image: /wp-content/uploads/2019/03/agml01.jpg
-categories:
-  - Download
-  - Música
+category: blog
 ---
 ### Sobre o Guitar M Lite
 

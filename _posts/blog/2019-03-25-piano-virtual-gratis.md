@@ -7,10 +7,9 @@ layout: post
 guid: https://www.showbiz.mus.br/?p=192
 permalink: /download/piano-virtual-gratis/
 image: /wp-content/uploads/2019/03/1-en-b-1.jpg
-categories:
-  - Download
+category: blog
 ---
-### O que é o Everyone Piano
+ 
 
 Everyone Piano é um “software” que é usado para tocar maravilhosas músicas sem preocupações com vírus.  
 

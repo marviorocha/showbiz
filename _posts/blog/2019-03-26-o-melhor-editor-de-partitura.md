@@ -7,7 +7,7 @@ layout: post
 guid: https://www.showbiz.mus.br/?p=267
 permalink: /musica/o-melhor-editor-de-partitura/
 image: /wp-content/uploads/2019/03/sprint.png
-categories:
+category: - blog
   - Download
   - Música
   - Produção Musical
