@@ -1,21 +1,16 @@
 nav:
-   - title: Home
-     icon: home
-     url: index.html
-     
-   - title: Sobre
-     icon: address-book
-     url: about
-         
-   - title: Partituras
-     icon: music
-     url: partituras
-     
-   - title: Blog
-     icon: newspaper
-     url: blog
-   - title: Buscar
-     icon: search
-     url: search
- 
- 
+  - title: Home
+    icon: home
+    url: index.html
+  - title: Buscar
+    icon: search
+    url: search
+  - title: Partituras
+    icon: music
+    url: partituras
+  - title: Blog
+    icon: newspaper
+    url: blog
+  - title: Sobre
+    icon: address-book
+    url: about

@@ -33,6 +33,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-admin
+
 disqus:
   shortname: showbizmus
 
@@ -42,11 +44,23 @@ onsiginal:
 collections:
   pages:
     output: true
+  posts:
+    output: true
+    sidebar_label: News
 
 paginate: 16
 
 include: 
   - .htaccess
+
+jekyll_admin:
+  hidden_links:
+    - pages
+    - staticfiles
+ 
+
+
+
 
   # Exclude from processing.
 # The following items will not be processed, by default.

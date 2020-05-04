@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-algolia"
   gem "jekyll-redirect-from"
+  gem "jekyll-admin"
   gem "jekyll-feed", "~> 0.12"
 end
 
